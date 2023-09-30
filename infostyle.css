@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
+.container{
+  position:absolute;
+  width:320px;
+  height:320px;
+  top:10%;
+  left:50%;
+  transform:translate(-50%,-50%)
+  }
+
+#heading{
+  background:#ffffff;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  display:flex;
+  font-family:'Titan One',cursive;
+  font-size:60px;
+  font-weight:700;
+  flex-flow:row wrap;
+  align-content:center;
+  justify-content:center
+  }
+
+#s{width:100%;position:relative}
+
+#s:before{
+  background:linear-gradient(45deg,#fc5c7d,#6a82fb,#fc5c7d);
+  width:100%;
+  height:100%;
+  display:block;
+  position:absolute;
+  content:"";
+  mix-blend-mode:screen
+  }
+
+[class*="blobs"]
+  {mix-blend-mode:color;animation:blobs 15s ease-in-out infinite alternate}
+
+.blobs_1{
+  position:absolute;
+  background:#ff1493;
+  width:20px;
+  height:20px;
+  top:165px;
+  left:275px
+  }
+
+.blobs_2{
+  position:absolute;
+  background:#ff4500;
+  width:40px;
+  height:40px;
+  top:130px;
+  left:245px
+  }
+
+.blobs_3{
+  position:absolute;
+  background:#00ff00;
+  width:50px;
+  height:50px;
+  top:115px;
+  left:20px
+  }
+
+.blobs_4{
+  position:absolute;
+  background:#ff0000;
+  width:70px;
+  height:70px;
+  top:145px;
+  left:120px
+  }
+
+.blobs_5{
+  position:absolute;
+  background:#ffff00;
+  width:50px;
+  height:50px;
+  top:125px;
+  left:70px
+  }
+
+.blobs_6{
+  position:absolute;
+  background:#00ffff;
+  width:60px;
+  height:60px;
+  top:165px;
+  left:55px
+  }
+
+.blobs_7{
+  position:absolute;
+  background:#ff8c00;
+  width:50px;
+  height:50px;
+  top:160px;
+  left:190px
+  }
+
+@keyframes blobs{
+  0%{border-radius:26% 74% 61% 39% / 54% 67% 33% 46%}
+  10%{border-radius:74% 26% 47% 53% / 68% 46% 54% 32%}
+  20%{border-radius:48% 52% 30% 70% / 27% 37% 63% 73%}
+  30%{border-radius:73% 27% 57% 43% / 28% 67% 33% 72%}
+  40%{border-radius:63% 37% 56% 44% / 25% 28% 72% 75%}
+  50%{border-radius:39% 61% 70% 30% / 61% 29% 71% 39%}
+  60%{border-radius:27% 73% 29% 71% / 73% 51% 49% 27%}
+  70%{border-radius:39% 61% 65% 35% / 74% 65% 35% 26%}
+  80%{border-radius:55% 45% 37% 63% / 38% 30% 70% 62%}
+  90%{border-radius:25% 75% 70% 30% / 39% 50% 50% 61%}
+  100%{border-radius:66% 34% 33% 67% / 65% 73% 27% 35%}
+  }
+
+
+body {
+  text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    overflow: hidden;
+  }
+.t1{
+  color:#95d4f2;
+  /* text-shadow: 2px 2px 4px #000000; */
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+.t2{
+  color: #dda2ff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+.t3{
+  color: #a3fba3;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+  /* text-shadow: 2px 2px 4px #ffffff; */
+}
+.t4{
+  color: #fcb298;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+.t5{
+  color: #ffc8dd;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+.t6{
+  color:#b0bdfe;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(60, 60, 60);
+}
+.t7{
+  color: #fb7375;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+
+}
+.t8{
+  color: #febafe;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+
+}
+  .text{
+    /* color: white; */
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+
+
+
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; 
+  }
+  .imagee{
+    width: 40vmin;
+    height: 56vmin;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .image {
+    filter: blur(4px);
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+  #last{
+    top:50%;
+  }
+  
